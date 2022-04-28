@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
 
     void GoBackToStart()
     {
+        // Move player to start position
         this.transform.position = new Vector3(24.29f, 4.14f, 0.95f);
     }
 }
